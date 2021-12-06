@@ -13,7 +13,7 @@ class Tipos_Entradas
         // Añadir Validar_QR
 		$this->ValidarQr();
 		//Guardar qr
-		add_action('save_post_generarqr', $this, 'guardarQR', 10, 3);
+		add_action('save_post_generarqr', [$this, 'guardarQR'], 10, 3);
     }
 
    //Registrando la función para añadir departamentos
@@ -257,29 +257,33 @@ function ValidarQr() {
 
 	/**
      * Maneja el guardado de las visitas, a partir de este se genera el código QR
-     * 
+     * @param int $id_post_generarqr Id del post del post type generar qr
+	 * @param WP_Post $post_generarqr Objeto del post actual, contiene todo el contenido del post.
+	 * @param bool $actualizando define si el post se esta actualizando o no. True actualizando, False Creando.
      * @return void
      */
-   public function guardarQR(int $id_generarqr, \WP_Post $visita, bool $actualizando)
-    {
+   public function guardarQR(int $id_post_generarqr, \WP_Post $post_generarqr, bool $actualizando)
+   {
         // Si viene el ID del post, se está guardando, sino, es autoguardado y no queremos hacer nada
         if (empty($_POST['ID'])) return;
+        
+		include CARPETA_PLUGIN . '/funciones/generarQR.php';
 
         if (!empty($_POST['acf'])) {
-            //Obtener fecha de inicio
-            $cadena_unica = array(
-                'generarqr'         => $id_generarqr,
-                'cantidad' => $_POST['acf']['field_61ad52a799149']
+            //Hcacer la url a la que los guardias vayan al momennto de validar el qr
+            $enlace_unico = array(
+                'id_generarqr'  => $id_post_generarqr,
+                'cantidad' 		=> $_POST['acf']['field_61ad52a799149']
             );
 
-            $cadena_unica = get_admin_url() . 'analizar-qr.php/=datos' . json_encode($cadena_unica);
+			//condominio.local/wp-admin/validar-qr.php/?datos={id_generarqr:95,cantidad:5}
+            $enlace_unico = get_admin_url() . 'validar-qr.php/?datos=' . json_encode($enlace_unico);
 
-            //Generar nuevo Qr
+            //genera el qr con los datos del enlace único de este post y el id del qr en la base de datos.
+            $qr_id = new GenerarQR($enlace_unico);
 
-            $qr_id = new GenerarQR($cadena_unica);
-
-            //Guardar el qr en los metadatos del post
-            add_post_meta($id_generarqr, 'id_imagen_qr', $qr_id);
+            //Guardar el qr en los metadatos del post. Estos no se encuentran vinculados, con el addpostmeta se vinculan con el post.
+            add_post_meta($id_post_generarqr, 'id_imagen_qr', $qr_id);
 
             //Mostrar el qr
            // $id_del_qr = get_post_meta($id_visita, 'id_imagen_qr', true); // [id = 1] - 1

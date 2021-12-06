@@ -6,10 +6,14 @@
  * Author: Jeniffer Balcazar, Leonardo Guevara, Jesús Chavarria y Fanor Flores
  */
 
+if(!defined('CARPETA_PLUGIN')){
+    define('CARPETA_PLUGIN', plugin_dir_path(__FILE__));
+}
+
 add_action('init', 'agregar_entradas_personalizadas');
 
 function agregar_entradas_personalizadas()
 {
-    include plugin_dir_path(__FILE__) . '/funciones/tipos-entradas.php';
+    include CARPETA_PLUGIN . '/funciones/tipos-entradas.php';
     new Tipos_Entradas;
 }

@@ -2969,3 +2969,41 @@ Stack trace:
 [06-Dec-2021 01:27:17 UTC] PHP   2. require() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\post-new.php:75
 [06-Dec-2021 01:27:17 UTC] PHP   3. require_once() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit-form-advanced.php:425
 [06-Dec-2021 01:27:17 UTC] PHP   4. header() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\admin-header.php:9
+[06-Dec-2021 01:45:19 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[06-Dec-2021 01:45:19 UTC] PHP Stack trace:
+[06-Dec-2021 01:45:19 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\post-new.php:0
+[06-Dec-2021 01:45:19 UTC] PHP   2. get_default_post_to_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\post-new.php:66
+[06-Dec-2021 01:45:19 UTC] PHP   3. wp_insert_post() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\post.php:694
+[06-Dec-2021 01:45:19 UTC] PHP   4. do_action() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\post.php:4457
+[06-Dec-2021 01:45:19 UTC] PHP   5. WP_Hook->do_action() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:470
+[06-Dec-2021 01:45:19 UTC] PHP   6. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php:327
+[06-Dec-2021 01:45:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php:303) in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\admin-header.php on line 9
+[06-Dec-2021 01:45:19 UTC] PHP Stack trace:
+[06-Dec-2021 01:45:19 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\post-new.php:0
+[06-Dec-2021 01:45:19 UTC] PHP   2. require() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\post-new.php:75
+[06-Dec-2021 01:45:19 UTC] PHP   3. require_once() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit-form-advanced.php:425
+[06-Dec-2021 01:45:19 UTC] PHP   4. header() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\admin-header.php:9
+[06-Dec-2021 01:52:13 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Error as array in C:\Users\jenif\Local Sites\condominio\app\public\wp-content\plugins\generacionqr\funciones\generarQR.php:16
+Stack trace:
+#0 C:\Users\jenif\Local Sites\condominio\app\public\wp-content\plugins\generacionqr\generacionqr.php(14): GenerarQR->__construct(NULL)
+#1 C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php(303): generacion_qr('')
+#2 C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\Users\jenif\Local Sites\condominio\app\public\wp-settings.php(578): do_action('init')
+#5 C:\Users\jenif\Local Sites\condominio\app\public\wp-config.php(77): require_once('C:\\Users\\jenif\\...')
+#6 C:\Users\jenif\Local Sites\condominio\app\public\wp-load.php(50): require_once('C:\\Users\\jenif\\...')
+#7 C:\Users\jenif\Local Sites\condominio\app\public\wp-admin in C:\Users\jenif\Local Sites\condominio\app\public\wp-content\plugins\generacionqr\funciones\generarQR.php on line 16
+[06-Dec-2021 02:42:27 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Entradas' does not have a method 'guardarQR' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[06-Dec-2021 02:42:27 UTC] PHP Stack trace:
+[06-Dec-2021 02:42:27 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\post-new.php:0
+[06-Dec-2021 02:42:27 UTC] PHP   2. get_default_post_to_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\post-new.php:66
+[06-Dec-2021 02:42:27 UTC] PHP   3. wp_insert_post() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\post.php:694
+[06-Dec-2021 02:42:27 UTC] PHP   4. do_action() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\post.php:4457
+[06-Dec-2021 02:42:27 UTC] PHP   5. WP_Hook->do_action() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:470
+[06-Dec-2021 02:42:27 UTC] PHP   6. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php:327
+[06-Dec-2021 02:42:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php:303) in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\admin-header.php on line 9
+[06-Dec-2021 02:42:27 UTC] PHP Stack trace:
+[06-Dec-2021 02:42:27 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\post-new.php:0
+[06-Dec-2021 02:42:27 UTC] PHP   2. require() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\post-new.php:75
+[06-Dec-2021 02:42:27 UTC] PHP   3. require_once() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit-form-advanced.php:425
+[06-Dec-2021 02:42:27 UTC] PHP   4. header() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\admin-header.php:9
