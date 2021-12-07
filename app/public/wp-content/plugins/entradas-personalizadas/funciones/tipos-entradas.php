@@ -4,16 +4,17 @@ class Tipos_Entradas
 {
     function __construct()
     {
-        // Añadir departamentos
+        // Añadir Entradas: departamentos
         $this->agregarDepartamentos();
-        // Añadir Copropietarios
+        // Añadir Entradas: Copropietarios
         $this->agregarCopropietarios();
-        // Añadir Generar_QR
+        // Añadir Entradas: Generar_QR
 		$this->GenerarQr();
 		//Guardar qr
 		add_action('save_post_generarqr', [$this, 'guardarQR'], 10, 3);
-		//
+		//Agregar la página de QR
 		add_action('admin_menu',[$this, 'agregar_pagina_qr']);
+		//Funcion para redireccionar si el QR viene con la url correcta
 		$this->redireccionar_si_viene_con_qr();
 		
     }
@@ -57,6 +58,7 @@ class Tipos_Entradas
 			'supports'              => array('editor', 'custom-fields' ),
 			'hierarchical'          => false,
 			'public'                => true,
+			'publicly_queryable'    => true,
 			'show_ui'               => true,
 			'show_in_menu'          => true,
 			'menu_position'         => 5,
@@ -66,7 +68,6 @@ class Tipos_Entradas
 			'can_export'            => true,
 			'has_archive'           => true,
 			'exclude_from_search'   => false,
-			'publicly_queryable'    => true,
 			'capability_type'       => 'page',
 		);
 		register_post_type( 'departamento', $argumentos_departamento );
@@ -113,6 +114,7 @@ class Tipos_Entradas
 			'supports'              => array('editor', 'custom-fields' ),
 			'hierarchical'          => false,
 			'public'                => true,
+			'publicly_queryable'    => true,
 			'show_ui'               => true,
 			'show_in_menu'          => true,
 			'menu_position'         => 5,
@@ -122,7 +124,6 @@ class Tipos_Entradas
 			'can_export'            => true,
 			'has_archive'           => true,
 			'exclude_from_search'   => false,
-			'publicly_queryable'    => true,
 			'capability_type'       => 'page',
 		);
 		register_post_type( 'copropietarios', $argumentos_copropietario);
@@ -177,6 +178,7 @@ class Tipos_Entradas
 		'supports'              => array('editor', 'custom-fields' ),
 		'hierarchical'          => false,
 		'public'                => true,
+		'publicly_queryable'    => true,
 		'show_ui'               => true,
 		'show_in_menu'          => true,
 		'menu_position'         => 5,
@@ -186,7 +188,6 @@ class Tipos_Entradas
 		'can_export'            => true,
 		'has_archive'           => true,
 		'exclude_from_search'   => false,
-		'publicly_queryable'    => true,
 		'capabilities'          => $capacidades_generarqr,
 	);
 	    register_post_type( 'generarqr', $arguementos_generarqr );

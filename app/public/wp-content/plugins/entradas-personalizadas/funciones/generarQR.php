@@ -15,7 +15,7 @@ class GenerarQR{
         //La imagen vuelve en modo binario entonces se vuelve a base64 para poder trabajar con ella.
         $image64 = base64_encode($resultado['body']);
 
-        $adjunto = $this->guardar_imagen($image64, 'Imagencita');
+        $adjunto = $this->guardar_imagen($image64, 'CódigoQR');
 
         return $adjunto;
     }

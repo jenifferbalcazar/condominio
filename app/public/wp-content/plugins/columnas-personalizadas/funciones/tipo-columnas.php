@@ -6,20 +6,20 @@ class Tipos_Columnas{
     {
         //agrega las columnas al cpt departamento
         //$this->agregarColumnasDepartamentos();
-        add_filter( 'manage_edit-departamento_columns', 'agregarColumnasDepartamentos' );
-        add_action( 'manage_departamento_posts_custom_column',  [$this, 'personalizar_contenidos'], 10, 2);
+        add_filter( 'manage_edit-departamento_columns', [$this, ' agregarColumnasDepartamentos']);
+        add_action( 'manage_departamento_posts_custom_column',  [$this, 'personalizar_contenido_columa_dpto'], 10, 2);
     }
 
     function agregarColumnasDepartamentos($columns){
         $columns = array(
-            'cb' => '<input type="checkbox" />',
+          'cb'                       => '<input type="checkbox" />',
           'numero_del_departamento'  => 'Número del Departamento', 
-          'descripcion'	=> 'Descripción'
+          'descripcion'	             => 'Descripción'
   );
         return $columns;
     }
 
-    function personalizar_contenidos( $column, $post_id ) {
+    function personalizar_contenido_columa_dpto( $column, $post_id ) {
         global $post;
         
       switch ($column)

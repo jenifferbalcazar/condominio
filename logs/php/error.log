@@ -3043,3 +3043,1097 @@ Stack trace:
 [07-Dec-2021 01:16:16 UTC] PHP Parse error:  syntax error, unexpected '$enlace_unico' (T_VARIABLE) in C:\Users\jenif\Local Sites\condominio\app\public\wp-content\plugins\entradas-personalizadas\funciones\tipos-entradas.php on line 278
 [07-Dec-2021 01:16:50 UTC] PHP Parse error:  syntax error, unexpected '$enlace_unico' (T_VARIABLE) in C:\Users\jenif\Local Sites\condominio\app\public\wp-content\plugins\entradas-personalizadas\funciones\tipos-entradas.php on line 278
 [07-Dec-2021 01:16:51 UTC] PHP Parse error:  syntax error, unexpected '$enlace_unico' (T_VARIABLE) in C:\Users\jenif\Local Sites\condominio\app\public\wp-content\plugins\entradas-personalizadas\funciones\tipos-entradas.php on line 278
+[07-Dec-2021 17:27:34 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\wp-db.php on line 1656
+[07-Dec-2021 17:27:34 UTC] PHP Stack trace:
+[07-Dec-2021 17:27:34 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[07-Dec-2021 17:27:34 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[07-Dec-2021 17:27:34 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[07-Dec-2021 17:27:34 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[07-Dec-2021 17:27:34 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[07-Dec-2021 17:27:34 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[07-Dec-2021 17:27:34 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1192
+[07-Dec-2021 17:27:34 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1271
+[07-Dec-2021 17:27:34 UTC] PHP   9. require_wp_db() C:\Users\jenif\Local Sites\condominio\app\public\wp-settings.php:124
+[07-Dec-2021 17:27:34 UTC] PHP  10. wpdb->__construct() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\load.php:558
+[07-Dec-2021 17:27:34 UTC] PHP  11. wpdb->db_connect() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\wp-db.php:632
+[07-Dec-2021 17:27:34 UTC] PHP  12. mysqli_real_connect() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\wp-db.php:1656
+[07-Dec-2021 17:27:35 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\wp-db.php on line 1656
+[07-Dec-2021 17:27:35 UTC] PHP Stack trace:
+[07-Dec-2021 17:27:35 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[07-Dec-2021 17:27:35 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[07-Dec-2021 17:27:35 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[07-Dec-2021 17:27:35 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[07-Dec-2021 17:27:35 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[07-Dec-2021 17:27:35 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[07-Dec-2021 17:27:35 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1192
+[07-Dec-2021 17:27:35 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1271
+[07-Dec-2021 17:27:35 UTC] PHP   9. require_wp_db() C:\Users\jenif\Local Sites\condominio\app\public\wp-settings.php:124
+[07-Dec-2021 17:27:35 UTC] PHP  10. wpdb->__construct() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\load.php:558
+[07-Dec-2021 17:27:35 UTC] PHP  11. wpdb->db_connect() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\wp-db.php:632
+[07-Dec-2021 17:27:35 UTC] PHP  12. mysqli_real_connect() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\wp-db.php:1656
+[07-Dec-2021 17:27:37 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexiï¿½n ya que el equipo de destino denegï¿½ expresamente dicha conexiï¿½n.
+ in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\wp-db.php on line 1656
+[07-Dec-2021 17:27:37 UTC] PHP Stack trace:
+[07-Dec-2021 17:27:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\index.php:0
+[07-Dec-2021 17:27:37 UTC] PHP   2. require() C:\Users\jenif\Local Sites\condominio\app\public\index.php:17
+[07-Dec-2021 17:27:37 UTC] PHP   3. require_once() C:\Users\jenif\Local Sites\condominio\app\public\wp-blog-header.php:13
+[07-Dec-2021 17:27:37 UTC] PHP   4. require_once() C:\Users\jenif\Local Sites\condominio\app\public\wp-load.php:50
+[07-Dec-2021 17:27:37 UTC] PHP   5. require_once() C:\Users\jenif\Local Sites\condominio\app\public\wp-config.php:77
+[07-Dec-2021 17:27:37 UTC] PHP   6. require_wp_db() C:\Users\jenif\Local Sites\condominio\app\public\wp-settings.php:124
+[07-Dec-2021 17:27:37 UTC] PHP   7. wpdb->__construct() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\load.php:558
+[07-Dec-2021 17:27:37 UTC] PHP   8. wpdb->db_connect() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\wp-db.php:632
+[07-Dec-2021 17:27:37 UTC] PHP   9. mysqli_real_connect() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\wp-db.php:1656
+[07-Dec-2021 18:14:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'agregarColumnasDepartamentos' not found or invalid function name in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:14:14 UTC] PHP Stack trace:
+[07-Dec-2021 18:14:14 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:14:14 UTC] PHP   2. require_once() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:396
+[07-Dec-2021 18:14:14 UTC] PHP   3. WP_Screen->render_screen_meta() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\admin-header.php:265
+[07-Dec-2021 18:14:14 UTC] PHP   4. WP_Screen->show_screen_options() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:956
+[07-Dec-2021 18:14:14 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:995
+[07-Dec-2021 18:14:14 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:14:14 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:14:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'agregarColumnasDepartamentos' not found or invalid function name in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:14:14 UTC] PHP Stack trace:
+[07-Dec-2021 18:14:14 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:14:14 UTC] PHP   2. require_once() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:396
+[07-Dec-2021 18:14:14 UTC] PHP   3. WP_Screen->render_screen_meta() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\admin-header.php:265
+[07-Dec-2021 18:14:14 UTC] PHP   4. WP_Screen->render_screen_options() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:957
+[07-Dec-2021 18:14:14 UTC] PHP   5. WP_Screen->render_list_table_columns_preferences() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:1077
+[07-Dec-2021 18:14:14 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:1151
+[07-Dec-2021 18:14:14 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:14:14 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:14:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'agregarColumnasDepartamentos' not found or invalid function name in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:14:14 UTC] PHP Stack trace:
+[07-Dec-2021 18:14:14 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:14:14 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:14:14 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1280
+[07-Dec-2021 18:14:14 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1186
+[07-Dec-2021 18:14:14 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1129
+[07-Dec-2021 18:14:14 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:14:14 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:14:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'agregarColumnasDepartamentos' not found or invalid function name in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:14:14 UTC] PHP Stack trace:
+[07-Dec-2021 18:14:14 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:14:14 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:14:14 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1280
+[07-Dec-2021 18:14:14 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1186
+[07-Dec-2021 18:14:14 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1159
+[07-Dec-2021 18:14:14 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:14:14 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:14:14 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:14:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1210
+[07-Dec-2021 18:14:14 UTC] PHP Stack trace:
+[07-Dec-2021 18:14:14 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:14:14 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:14:14 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1280
+[07-Dec-2021 18:14:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'agregarColumnasDepartamentos' not found or invalid function name in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:14:14 UTC] PHP Stack trace:
+[07-Dec-2021 18:14:14 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:14:14 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:14:14 UTC] PHP   3. WP_Posts_List_Table->display_rows_or_placeholder() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1291
+[07-Dec-2021 18:14:14 UTC] PHP   4. WP_Posts_List_Table->display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1364
+[07-Dec-2021 18:14:14 UTC] PHP   5. WP_Posts_List_Table->_display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:772
+[07-Dec-2021 18:14:14 UTC] PHP   6. WP_Posts_List_Table->single_row() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:795
+[07-Dec-2021 18:14:14 UTC] PHP   7. WP_Posts_List_Table->single_row_columns() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1377
+[07-Dec-2021 18:14:14 UTC] PHP   8. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1415
+[07-Dec-2021 18:14:14 UTC] PHP   9. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:14:14 UTC] PHP  10. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:14:14 UTC] PHP  11. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:14:14 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:14:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1417
+[07-Dec-2021 18:14:14 UTC] PHP Stack trace:
+[07-Dec-2021 18:14:14 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:14:14 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:14:14 UTC] PHP   3. WP_Posts_List_Table->display_rows_or_placeholder() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1291
+[07-Dec-2021 18:14:14 UTC] PHP   4. WP_Posts_List_Table->display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1364
+[07-Dec-2021 18:14:14 UTC] PHP   5. WP_Posts_List_Table->_display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:772
+[07-Dec-2021 18:14:14 UTC] PHP   6. WP_Posts_List_Table->single_row() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:795
+[07-Dec-2021 18:14:14 UTC] PHP   7. WP_Posts_List_Table->single_row_columns() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1377
+[07-Dec-2021 18:14:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'agregarColumnasDepartamentos' not found or invalid function name in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:14:14 UTC] PHP Stack trace:
+[07-Dec-2021 18:14:14 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:14:14 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:14:14 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1296
+[07-Dec-2021 18:14:14 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1186
+[07-Dec-2021 18:14:14 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:14:14 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:14:14 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:14:14 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:14:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1210
+[07-Dec-2021 18:14:14 UTC] PHP Stack trace:
+[07-Dec-2021 18:14:14 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:14:14 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:14:14 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1296
+[07-Dec-2021 18:14:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'agregarColumnasDepartamentos' not found or invalid function name in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:14:14 UTC] PHP Stack trace:
+[07-Dec-2021 18:14:14 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:14:14 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:14:14 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:14:14 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1173
+[07-Dec-2021 18:14:14 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:14:14 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:14:14 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:14:14 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:14:14 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:14:14 UTC] PHP Stack trace:
+[07-Dec-2021 18:14:14 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:14:14 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:14:14 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:14:14 UTC] PHP   4. array_keys() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:14:14 UTC] PHP Warning:  array_intersect(): Expected parameter 1 to be an array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:14:14 UTC] PHP Stack trace:
+[07-Dec-2021 18:14:14 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:14:14 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:14:14 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:14:14 UTC] PHP   4. array_intersect() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:14:14 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:14:14 UTC] PHP Stack trace:
+[07-Dec-2021 18:14:14 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:14:14 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:14:14 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:14:14 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:14:14 UTC] PHP Stack trace:
+[07-Dec-2021 18:14:14 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:14:14 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:14:14 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:14:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'agregarColumnasDepartamentos' not found or invalid function name in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:14:14 UTC] PHP Stack trace:
+[07-Dec-2021 18:14:14 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:14:14 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:14:14 UTC] PHP   3. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1966
+[07-Dec-2021 18:14:14 UTC] PHP   4. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:14:14 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:14:14 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:14:14 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:14:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php on line 1968
+[07-Dec-2021 18:14:14 UTC] PHP Stack trace:
+[07-Dec-2021 18:14:14 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:14:14 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:14:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'agregarColumnasDepartamentos' not found or invalid function name in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:14:14 UTC] PHP Stack trace:
+[07-Dec-2021 18:14:14 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:14:14 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:14:14 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:14:14 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1173
+[07-Dec-2021 18:14:14 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:14:14 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:14:14 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:14:14 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:14:14 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:14:14 UTC] PHP Stack trace:
+[07-Dec-2021 18:14:14 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:14:14 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:14:14 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:14:14 UTC] PHP   4. array_keys() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:14:14 UTC] PHP Warning:  array_intersect(): Expected parameter 1 to be an array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:14:14 UTC] PHP Stack trace:
+[07-Dec-2021 18:14:14 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:14:14 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:14:14 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:14:14 UTC] PHP   4. array_intersect() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:14:14 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:14:14 UTC] PHP Stack trace:
+[07-Dec-2021 18:14:14 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:14:14 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:14:14 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:14:14 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:14:14 UTC] PHP Stack trace:
+[07-Dec-2021 18:14:14 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:14:14 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:14:14 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:14:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'agregarColumnasDepartamentos' not found or invalid function name in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:14:14 UTC] PHP Stack trace:
+[07-Dec-2021 18:14:14 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:14:14 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:14:14 UTC] PHP   3. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1966
+[07-Dec-2021 18:14:14 UTC] PHP   4. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:14:14 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:14:14 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:14:14 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:14:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php on line 1968
+[07-Dec-2021 18:14:14 UTC] PHP Stack trace:
+[07-Dec-2021 18:14:14 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:14:14 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:16:49 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:16:49 UTC] PHP Stack trace:
+[07-Dec-2021 18:16:49 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:16:49 UTC] PHP   2. require_once() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:396
+[07-Dec-2021 18:16:49 UTC] PHP   3. WP_Screen->render_screen_meta() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\admin-header.php:265
+[07-Dec-2021 18:16:49 UTC] PHP   4. WP_Screen->show_screen_options() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:956
+[07-Dec-2021 18:16:49 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:995
+[07-Dec-2021 18:16:49 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:16:49 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:16:49 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:16:49 UTC] PHP Stack trace:
+[07-Dec-2021 18:16:49 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:16:49 UTC] PHP   2. require_once() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:396
+[07-Dec-2021 18:16:49 UTC] PHP   3. WP_Screen->render_screen_meta() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\admin-header.php:265
+[07-Dec-2021 18:16:49 UTC] PHP   4. WP_Screen->render_screen_options() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:957
+[07-Dec-2021 18:16:49 UTC] PHP   5. WP_Screen->render_list_table_columns_preferences() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:1077
+[07-Dec-2021 18:16:49 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:1151
+[07-Dec-2021 18:16:49 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:16:49 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:16:49 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:16:49 UTC] PHP Stack trace:
+[07-Dec-2021 18:16:49 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:16:49 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:16:49 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1280
+[07-Dec-2021 18:16:49 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1186
+[07-Dec-2021 18:16:49 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1129
+[07-Dec-2021 18:16:49 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:16:49 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:16:49 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:16:49 UTC] PHP Stack trace:
+[07-Dec-2021 18:16:49 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:16:49 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:16:49 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1280
+[07-Dec-2021 18:16:49 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1186
+[07-Dec-2021 18:16:49 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1159
+[07-Dec-2021 18:16:49 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:16:49 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:16:49 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:16:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1210
+[07-Dec-2021 18:16:49 UTC] PHP Stack trace:
+[07-Dec-2021 18:16:49 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:16:49 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:16:49 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1280
+[07-Dec-2021 18:16:49 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:16:49 UTC] PHP Stack trace:
+[07-Dec-2021 18:16:49 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:16:49 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:16:49 UTC] PHP   3. WP_Posts_List_Table->display_rows_or_placeholder() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1291
+[07-Dec-2021 18:16:49 UTC] PHP   4. WP_Posts_List_Table->display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1364
+[07-Dec-2021 18:16:49 UTC] PHP   5. WP_Posts_List_Table->_display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:772
+[07-Dec-2021 18:16:49 UTC] PHP   6. WP_Posts_List_Table->single_row() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:795
+[07-Dec-2021 18:16:49 UTC] PHP   7. WP_Posts_List_Table->single_row_columns() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1377
+[07-Dec-2021 18:16:49 UTC] PHP   8. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1415
+[07-Dec-2021 18:16:49 UTC] PHP   9. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:16:49 UTC] PHP  10. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:16:49 UTC] PHP  11. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:16:49 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:16:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1417
+[07-Dec-2021 18:16:49 UTC] PHP Stack trace:
+[07-Dec-2021 18:16:49 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:16:49 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:16:49 UTC] PHP   3. WP_Posts_List_Table->display_rows_or_placeholder() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1291
+[07-Dec-2021 18:16:49 UTC] PHP   4. WP_Posts_List_Table->display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1364
+[07-Dec-2021 18:16:49 UTC] PHP   5. WP_Posts_List_Table->_display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:772
+[07-Dec-2021 18:16:49 UTC] PHP   6. WP_Posts_List_Table->single_row() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:795
+[07-Dec-2021 18:16:49 UTC] PHP   7. WP_Posts_List_Table->single_row_columns() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1377
+[07-Dec-2021 18:16:49 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:16:49 UTC] PHP Stack trace:
+[07-Dec-2021 18:16:49 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:16:49 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:16:49 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1296
+[07-Dec-2021 18:16:49 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1186
+[07-Dec-2021 18:16:49 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:16:49 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:16:49 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:16:49 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:16:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1210
+[07-Dec-2021 18:16:49 UTC] PHP Stack trace:
+[07-Dec-2021 18:16:49 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:16:49 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:16:49 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1296
+[07-Dec-2021 18:16:49 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:16:49 UTC] PHP Stack trace:
+[07-Dec-2021 18:16:49 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:16:49 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:16:49 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:16:49 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1173
+[07-Dec-2021 18:16:49 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:16:49 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:16:49 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:16:49 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:16:49 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:16:49 UTC] PHP Stack trace:
+[07-Dec-2021 18:16:49 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:16:49 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:16:49 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:16:49 UTC] PHP   4. array_keys() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:16:49 UTC] PHP Warning:  array_intersect(): Expected parameter 1 to be an array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:16:49 UTC] PHP Stack trace:
+[07-Dec-2021 18:16:49 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:16:49 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:16:49 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:16:49 UTC] PHP   4. array_intersect() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:16:49 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:16:49 UTC] PHP Stack trace:
+[07-Dec-2021 18:16:49 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:16:49 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:16:49 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:16:49 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:16:49 UTC] PHP Stack trace:
+[07-Dec-2021 18:16:49 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:16:49 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:16:49 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:16:49 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:16:49 UTC] PHP Stack trace:
+[07-Dec-2021 18:16:49 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:16:49 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:16:49 UTC] PHP   3. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1966
+[07-Dec-2021 18:16:49 UTC] PHP   4. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:16:49 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:16:49 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:16:49 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:16:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php on line 1968
+[07-Dec-2021 18:16:49 UTC] PHP Stack trace:
+[07-Dec-2021 18:16:49 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:16:49 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:16:49 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:16:49 UTC] PHP Stack trace:
+[07-Dec-2021 18:16:49 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:16:49 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:16:49 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:16:49 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1173
+[07-Dec-2021 18:16:49 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:16:49 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:16:49 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:16:49 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:16:49 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:16:49 UTC] PHP Stack trace:
+[07-Dec-2021 18:16:49 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:16:50 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:16:50 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:16:50 UTC] PHP   4. array_keys() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:16:50 UTC] PHP Warning:  array_intersect(): Expected parameter 1 to be an array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:16:50 UTC] PHP Stack trace:
+[07-Dec-2021 18:16:50 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:16:50 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:16:50 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:16:50 UTC] PHP   4. array_intersect() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:16:50 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:16:50 UTC] PHP Stack trace:
+[07-Dec-2021 18:16:50 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:16:50 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:16:50 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:16:50 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:16:50 UTC] PHP Stack trace:
+[07-Dec-2021 18:16:50 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:16:50 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:16:50 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:16:50 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:16:50 UTC] PHP Stack trace:
+[07-Dec-2021 18:16:50 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:16:50 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:16:50 UTC] PHP   3. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1966
+[07-Dec-2021 18:16:50 UTC] PHP   4. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:16:50 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:16:50 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:16:50 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:16:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php on line 1968
+[07-Dec-2021 18:16:50 UTC] PHP Stack trace:
+[07-Dec-2021 18:16:50 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:16:50 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:23:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:23:44 UTC] PHP Stack trace:
+[07-Dec-2021 18:23:44 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:23:44 UTC] PHP   2. require_once() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:396
+[07-Dec-2021 18:23:44 UTC] PHP   3. WP_Screen->render_screen_meta() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\admin-header.php:265
+[07-Dec-2021 18:23:44 UTC] PHP   4. WP_Screen->show_screen_options() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:956
+[07-Dec-2021 18:23:44 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:995
+[07-Dec-2021 18:23:44 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:23:44 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:23:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:23:44 UTC] PHP Stack trace:
+[07-Dec-2021 18:23:44 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:23:44 UTC] PHP   2. require_once() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:396
+[07-Dec-2021 18:23:44 UTC] PHP   3. WP_Screen->render_screen_meta() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\admin-header.php:265
+[07-Dec-2021 18:23:44 UTC] PHP   4. WP_Screen->render_screen_options() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:957
+[07-Dec-2021 18:23:44 UTC] PHP   5. WP_Screen->render_list_table_columns_preferences() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:1077
+[07-Dec-2021 18:23:44 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:1151
+[07-Dec-2021 18:23:44 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:23:44 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:23:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:23:44 UTC] PHP Stack trace:
+[07-Dec-2021 18:23:44 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:23:44 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:23:44 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1280
+[07-Dec-2021 18:23:44 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1186
+[07-Dec-2021 18:23:44 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1129
+[07-Dec-2021 18:23:44 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:23:44 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:23:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:23:44 UTC] PHP Stack trace:
+[07-Dec-2021 18:23:44 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:23:44 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:23:44 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1280
+[07-Dec-2021 18:23:44 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1186
+[07-Dec-2021 18:23:44 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1159
+[07-Dec-2021 18:23:44 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:23:44 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:23:44 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:23:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1210
+[07-Dec-2021 18:23:44 UTC] PHP Stack trace:
+[07-Dec-2021 18:23:44 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:23:44 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:23:44 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1280
+[07-Dec-2021 18:23:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:23:44 UTC] PHP Stack trace:
+[07-Dec-2021 18:23:44 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:23:44 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:23:44 UTC] PHP   3. WP_Posts_List_Table->display_rows_or_placeholder() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1291
+[07-Dec-2021 18:23:44 UTC] PHP   4. WP_Posts_List_Table->display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1364
+[07-Dec-2021 18:23:44 UTC] PHP   5. WP_Posts_List_Table->_display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:772
+[07-Dec-2021 18:23:44 UTC] PHP   6. WP_Posts_List_Table->single_row() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:795
+[07-Dec-2021 18:23:44 UTC] PHP   7. WP_Posts_List_Table->single_row_columns() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1377
+[07-Dec-2021 18:23:44 UTC] PHP   8. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1415
+[07-Dec-2021 18:23:44 UTC] PHP   9. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:23:44 UTC] PHP  10. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:23:44 UTC] PHP  11. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:23:44 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:23:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1417
+[07-Dec-2021 18:23:44 UTC] PHP Stack trace:
+[07-Dec-2021 18:23:44 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:23:44 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:23:44 UTC] PHP   3. WP_Posts_List_Table->display_rows_or_placeholder() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1291
+[07-Dec-2021 18:23:44 UTC] PHP   4. WP_Posts_List_Table->display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1364
+[07-Dec-2021 18:23:44 UTC] PHP   5. WP_Posts_List_Table->_display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:772
+[07-Dec-2021 18:23:44 UTC] PHP   6. WP_Posts_List_Table->single_row() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:795
+[07-Dec-2021 18:23:44 UTC] PHP   7. WP_Posts_List_Table->single_row_columns() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1377
+[07-Dec-2021 18:23:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:23:44 UTC] PHP Stack trace:
+[07-Dec-2021 18:23:44 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:23:44 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:23:44 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1296
+[07-Dec-2021 18:23:44 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1186
+[07-Dec-2021 18:23:44 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:23:44 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:23:44 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:23:44 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:23:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1210
+[07-Dec-2021 18:23:44 UTC] PHP Stack trace:
+[07-Dec-2021 18:23:44 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:23:44 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:23:44 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1296
+[07-Dec-2021 18:23:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:23:44 UTC] PHP Stack trace:
+[07-Dec-2021 18:23:44 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:23:44 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:23:44 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:23:44 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1173
+[07-Dec-2021 18:23:44 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:23:44 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:23:44 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:23:44 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:23:44 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:23:44 UTC] PHP Stack trace:
+[07-Dec-2021 18:23:44 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:23:44 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:23:44 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:23:44 UTC] PHP   4. array_keys() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:23:44 UTC] PHP Warning:  array_intersect(): Expected parameter 1 to be an array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:23:44 UTC] PHP Stack trace:
+[07-Dec-2021 18:23:44 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:23:44 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:23:44 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:23:44 UTC] PHP   4. array_intersect() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:23:44 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:23:44 UTC] PHP Stack trace:
+[07-Dec-2021 18:23:44 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:23:44 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:23:44 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:23:44 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:23:44 UTC] PHP Stack trace:
+[07-Dec-2021 18:23:44 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:23:44 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:23:44 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:23:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:23:44 UTC] PHP Stack trace:
+[07-Dec-2021 18:23:44 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:23:44 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:23:44 UTC] PHP   3. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1966
+[07-Dec-2021 18:23:44 UTC] PHP   4. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:23:44 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:23:44 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:23:44 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:23:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php on line 1968
+[07-Dec-2021 18:23:44 UTC] PHP Stack trace:
+[07-Dec-2021 18:23:44 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:23:44 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:23:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:23:44 UTC] PHP Stack trace:
+[07-Dec-2021 18:23:44 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:23:44 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:23:44 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:23:44 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1173
+[07-Dec-2021 18:23:44 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:23:44 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:23:44 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:23:44 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:23:44 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:23:44 UTC] PHP Stack trace:
+[07-Dec-2021 18:23:44 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:23:44 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:23:44 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:23:44 UTC] PHP   4. array_keys() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:23:44 UTC] PHP Warning:  array_intersect(): Expected parameter 1 to be an array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:23:44 UTC] PHP Stack trace:
+[07-Dec-2021 18:23:44 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:23:44 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:23:44 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:23:44 UTC] PHP   4. array_intersect() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:23:44 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:23:44 UTC] PHP Stack trace:
+[07-Dec-2021 18:23:44 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:23:44 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:23:44 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:23:44 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:23:44 UTC] PHP Stack trace:
+[07-Dec-2021 18:23:44 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:23:44 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:23:44 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:23:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:23:44 UTC] PHP Stack trace:
+[07-Dec-2021 18:23:44 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:23:44 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:23:44 UTC] PHP   3. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1966
+[07-Dec-2021 18:23:44 UTC] PHP   4. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:23:44 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:23:44 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:23:44 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:23:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php on line 1968
+[07-Dec-2021 18:23:44 UTC] PHP Stack trace:
+[07-Dec-2021 18:23:44 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:23:44 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:32:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos(columns)' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:32:07 UTC] PHP Stack trace:
+[07-Dec-2021 18:32:07 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:32:07 UTC] PHP   2. require_once() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:396
+[07-Dec-2021 18:32:07 UTC] PHP   3. WP_Screen->render_screen_meta() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\admin-header.php:265
+[07-Dec-2021 18:32:07 UTC] PHP   4. WP_Screen->show_screen_options() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:956
+[07-Dec-2021 18:32:07 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:995
+[07-Dec-2021 18:32:07 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:32:07 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:32:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos(columns)' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:32:07 UTC] PHP Stack trace:
+[07-Dec-2021 18:32:07 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:32:07 UTC] PHP   2. require_once() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:396
+[07-Dec-2021 18:32:07 UTC] PHP   3. WP_Screen->render_screen_meta() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\admin-header.php:265
+[07-Dec-2021 18:32:07 UTC] PHP   4. WP_Screen->render_screen_options() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:957
+[07-Dec-2021 18:32:07 UTC] PHP   5. WP_Screen->render_list_table_columns_preferences() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:1077
+[07-Dec-2021 18:32:07 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:1151
+[07-Dec-2021 18:32:07 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:32:07 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:32:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos(columns)' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:32:07 UTC] PHP Stack trace:
+[07-Dec-2021 18:32:07 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:32:07 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:32:07 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1280
+[07-Dec-2021 18:32:07 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1186
+[07-Dec-2021 18:32:07 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1129
+[07-Dec-2021 18:32:07 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:32:07 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:32:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos(columns)' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:32:07 UTC] PHP Stack trace:
+[07-Dec-2021 18:32:07 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:32:07 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:32:07 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1280
+[07-Dec-2021 18:32:07 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1186
+[07-Dec-2021 18:32:07 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1159
+[07-Dec-2021 18:32:07 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:32:07 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:32:07 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:32:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1210
+[07-Dec-2021 18:32:07 UTC] PHP Stack trace:
+[07-Dec-2021 18:32:07 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:32:07 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:32:07 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1280
+[07-Dec-2021 18:32:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos(columns)' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:32:07 UTC] PHP Stack trace:
+[07-Dec-2021 18:32:07 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:32:07 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:32:07 UTC] PHP   3. WP_Posts_List_Table->display_rows_or_placeholder() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1291
+[07-Dec-2021 18:32:07 UTC] PHP   4. WP_Posts_List_Table->display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1364
+[07-Dec-2021 18:32:07 UTC] PHP   5. WP_Posts_List_Table->_display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:772
+[07-Dec-2021 18:32:07 UTC] PHP   6. WP_Posts_List_Table->single_row() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:795
+[07-Dec-2021 18:32:07 UTC] PHP   7. WP_Posts_List_Table->single_row_columns() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1377
+[07-Dec-2021 18:32:07 UTC] PHP   8. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1415
+[07-Dec-2021 18:32:07 UTC] PHP   9. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:32:07 UTC] PHP  10. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:32:07 UTC] PHP  11. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:32:07 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:32:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1417
+[07-Dec-2021 18:32:07 UTC] PHP Stack trace:
+[07-Dec-2021 18:32:07 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:32:07 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:32:07 UTC] PHP   3. WP_Posts_List_Table->display_rows_or_placeholder() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1291
+[07-Dec-2021 18:32:07 UTC] PHP   4. WP_Posts_List_Table->display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1364
+[07-Dec-2021 18:32:07 UTC] PHP   5. WP_Posts_List_Table->_display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:772
+[07-Dec-2021 18:32:07 UTC] PHP   6. WP_Posts_List_Table->single_row() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:795
+[07-Dec-2021 18:32:07 UTC] PHP   7. WP_Posts_List_Table->single_row_columns() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1377
+[07-Dec-2021 18:32:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos(columns)' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:32:07 UTC] PHP Stack trace:
+[07-Dec-2021 18:32:07 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:32:07 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:32:07 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1296
+[07-Dec-2021 18:32:07 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1186
+[07-Dec-2021 18:32:07 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:32:07 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:32:07 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:32:07 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:32:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1210
+[07-Dec-2021 18:32:07 UTC] PHP Stack trace:
+[07-Dec-2021 18:32:07 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:32:07 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:32:07 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1296
+[07-Dec-2021 18:32:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos(columns)' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:32:07 UTC] PHP Stack trace:
+[07-Dec-2021 18:32:07 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:32:07 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:32:07 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:32:07 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1173
+[07-Dec-2021 18:32:07 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:32:07 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:32:07 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:32:07 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:32:07 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:32:07 UTC] PHP Stack trace:
+[07-Dec-2021 18:32:07 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:32:07 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:32:07 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:32:07 UTC] PHP   4. array_keys() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:32:07 UTC] PHP Warning:  array_intersect(): Expected parameter 1 to be an array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:32:07 UTC] PHP Stack trace:
+[07-Dec-2021 18:32:07 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:32:07 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:32:07 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:32:07 UTC] PHP   4. array_intersect() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:32:07 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:32:07 UTC] PHP Stack trace:
+[07-Dec-2021 18:32:07 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:32:07 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:32:07 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:32:07 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:32:07 UTC] PHP Stack trace:
+[07-Dec-2021 18:32:07 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:32:07 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:32:07 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:32:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos(columns)' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:32:07 UTC] PHP Stack trace:
+[07-Dec-2021 18:32:07 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:32:07 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:32:07 UTC] PHP   3. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1966
+[07-Dec-2021 18:32:07 UTC] PHP   4. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:32:07 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:32:07 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:32:07 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:32:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php on line 1968
+[07-Dec-2021 18:32:07 UTC] PHP Stack trace:
+[07-Dec-2021 18:32:07 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:32:07 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:32:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos(columns)' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:32:07 UTC] PHP Stack trace:
+[07-Dec-2021 18:32:07 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:32:07 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:32:07 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:32:07 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1173
+[07-Dec-2021 18:32:07 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:32:07 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:32:07 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:32:07 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:32:07 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:32:07 UTC] PHP Stack trace:
+[07-Dec-2021 18:32:07 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:32:07 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:32:07 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:32:07 UTC] PHP   4. array_keys() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:32:07 UTC] PHP Warning:  array_intersect(): Expected parameter 1 to be an array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:32:07 UTC] PHP Stack trace:
+[07-Dec-2021 18:32:07 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:32:07 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:32:07 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:32:07 UTC] PHP   4. array_intersect() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:32:07 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:32:07 UTC] PHP Stack trace:
+[07-Dec-2021 18:32:07 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:32:07 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:32:07 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:32:07 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:32:07 UTC] PHP Stack trace:
+[07-Dec-2021 18:32:07 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:32:07 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:32:07 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:32:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos(columns)' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:32:07 UTC] PHP Stack trace:
+[07-Dec-2021 18:32:07 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:32:07 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:32:07 UTC] PHP   3. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1966
+[07-Dec-2021 18:32:07 UTC] PHP   4. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:32:07 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:32:07 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:32:07 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:32:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php on line 1968
+[07-Dec-2021 18:32:07 UTC] PHP Stack trace:
+[07-Dec-2021 18:32:07 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:32:07 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:33:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos($columns)' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:33:41 UTC] PHP Stack trace:
+[07-Dec-2021 18:33:41 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:33:41 UTC] PHP   2. require_once() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:396
+[07-Dec-2021 18:33:41 UTC] PHP   3. WP_Screen->render_screen_meta() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\admin-header.php:265
+[07-Dec-2021 18:33:41 UTC] PHP   4. WP_Screen->show_screen_options() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:956
+[07-Dec-2021 18:33:41 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:995
+[07-Dec-2021 18:33:41 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:33:41 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:33:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos($columns)' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:33:41 UTC] PHP Stack trace:
+[07-Dec-2021 18:33:41 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:33:41 UTC] PHP   2. require_once() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:396
+[07-Dec-2021 18:33:41 UTC] PHP   3. WP_Screen->render_screen_meta() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\admin-header.php:265
+[07-Dec-2021 18:33:41 UTC] PHP   4. WP_Screen->render_screen_options() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:957
+[07-Dec-2021 18:33:41 UTC] PHP   5. WP_Screen->render_list_table_columns_preferences() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:1077
+[07-Dec-2021 18:33:41 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:1151
+[07-Dec-2021 18:33:41 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:33:41 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:33:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos($columns)' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:33:41 UTC] PHP Stack trace:
+[07-Dec-2021 18:33:41 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:33:41 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:33:41 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1280
+[07-Dec-2021 18:33:41 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1186
+[07-Dec-2021 18:33:41 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1129
+[07-Dec-2021 18:33:41 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:33:41 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:33:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos($columns)' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:33:41 UTC] PHP Stack trace:
+[07-Dec-2021 18:33:41 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:33:41 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:33:41 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1280
+[07-Dec-2021 18:33:41 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1186
+[07-Dec-2021 18:33:41 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1159
+[07-Dec-2021 18:33:41 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:33:41 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:33:41 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:33:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1210
+[07-Dec-2021 18:33:41 UTC] PHP Stack trace:
+[07-Dec-2021 18:33:41 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:33:41 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:33:41 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1280
+[07-Dec-2021 18:33:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos($columns)' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:33:41 UTC] PHP Stack trace:
+[07-Dec-2021 18:33:41 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:33:41 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:33:41 UTC] PHP   3. WP_Posts_List_Table->display_rows_or_placeholder() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1291
+[07-Dec-2021 18:33:41 UTC] PHP   4. WP_Posts_List_Table->display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1364
+[07-Dec-2021 18:33:41 UTC] PHP   5. WP_Posts_List_Table->_display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:772
+[07-Dec-2021 18:33:41 UTC] PHP   6. WP_Posts_List_Table->single_row() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:795
+[07-Dec-2021 18:33:41 UTC] PHP   7. WP_Posts_List_Table->single_row_columns() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1377
+[07-Dec-2021 18:33:41 UTC] PHP   8. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1415
+[07-Dec-2021 18:33:41 UTC] PHP   9. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:33:41 UTC] PHP  10. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:33:41 UTC] PHP  11. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:33:41 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:33:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1417
+[07-Dec-2021 18:33:41 UTC] PHP Stack trace:
+[07-Dec-2021 18:33:41 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:33:41 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:33:41 UTC] PHP   3. WP_Posts_List_Table->display_rows_or_placeholder() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1291
+[07-Dec-2021 18:33:41 UTC] PHP   4. WP_Posts_List_Table->display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1364
+[07-Dec-2021 18:33:41 UTC] PHP   5. WP_Posts_List_Table->_display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:772
+[07-Dec-2021 18:33:41 UTC] PHP   6. WP_Posts_List_Table->single_row() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:795
+[07-Dec-2021 18:33:41 UTC] PHP   7. WP_Posts_List_Table->single_row_columns() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1377
+[07-Dec-2021 18:33:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos($columns)' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:33:41 UTC] PHP Stack trace:
+[07-Dec-2021 18:33:41 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:33:41 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:33:41 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1296
+[07-Dec-2021 18:33:41 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1186
+[07-Dec-2021 18:33:41 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:33:41 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:33:41 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:33:41 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:33:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1210
+[07-Dec-2021 18:33:41 UTC] PHP Stack trace:
+[07-Dec-2021 18:33:41 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:33:41 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:33:41 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1296
+[07-Dec-2021 18:33:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos($columns)' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:33:41 UTC] PHP Stack trace:
+[07-Dec-2021 18:33:41 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:33:41 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:33:41 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:33:41 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1173
+[07-Dec-2021 18:33:41 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:33:41 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:33:41 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:33:41 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:33:41 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:33:41 UTC] PHP Stack trace:
+[07-Dec-2021 18:33:41 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:33:41 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:33:41 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:33:41 UTC] PHP   4. array_keys() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:33:41 UTC] PHP Warning:  array_intersect(): Expected parameter 1 to be an array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:33:41 UTC] PHP Stack trace:
+[07-Dec-2021 18:33:41 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:33:41 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:33:41 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:33:41 UTC] PHP   4. array_intersect() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:33:41 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:33:41 UTC] PHP Stack trace:
+[07-Dec-2021 18:33:41 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:33:41 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:33:41 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:33:41 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:33:41 UTC] PHP Stack trace:
+[07-Dec-2021 18:33:41 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:33:41 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:33:41 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:33:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos($columns)' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:33:41 UTC] PHP Stack trace:
+[07-Dec-2021 18:33:41 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:33:41 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:33:41 UTC] PHP   3. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1966
+[07-Dec-2021 18:33:41 UTC] PHP   4. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:33:41 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:33:41 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:33:41 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:33:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php on line 1968
+[07-Dec-2021 18:33:41 UTC] PHP Stack trace:
+[07-Dec-2021 18:33:41 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:33:41 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:33:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos($columns)' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:33:41 UTC] PHP Stack trace:
+[07-Dec-2021 18:33:41 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:33:41 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:33:41 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:33:41 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1173
+[07-Dec-2021 18:33:41 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:33:41 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:33:41 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:33:41 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:33:41 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:33:41 UTC] PHP Stack trace:
+[07-Dec-2021 18:33:41 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:33:41 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:33:41 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:33:41 UTC] PHP   4. array_keys() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:33:41 UTC] PHP Warning:  array_intersect(): Expected parameter 1 to be an array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:33:41 UTC] PHP Stack trace:
+[07-Dec-2021 18:33:41 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:33:41 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:33:41 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:33:41 UTC] PHP   4. array_intersect() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:33:41 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:33:41 UTC] PHP Stack trace:
+[07-Dec-2021 18:33:41 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:33:41 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:33:41 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:33:41 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:33:41 UTC] PHP Stack trace:
+[07-Dec-2021 18:33:41 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:33:41 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:33:41 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:33:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos($columns)' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:33:41 UTC] PHP Stack trace:
+[07-Dec-2021 18:33:41 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:33:41 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:33:41 UTC] PHP   3. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1966
+[07-Dec-2021 18:33:41 UTC] PHP   4. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:33:41 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:33:41 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:33:41 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:33:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php on line 1968
+[07-Dec-2021 18:33:41 UTC] PHP Stack trace:
+[07-Dec-2021 18:33:41 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:33:41 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:34:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:34:37 UTC] PHP Stack trace:
+[07-Dec-2021 18:34:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:34:37 UTC] PHP   2. require_once() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:396
+[07-Dec-2021 18:34:37 UTC] PHP   3. WP_Screen->render_screen_meta() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\admin-header.php:265
+[07-Dec-2021 18:34:37 UTC] PHP   4. WP_Screen->show_screen_options() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:956
+[07-Dec-2021 18:34:37 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:995
+[07-Dec-2021 18:34:37 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:34:37 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:34:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:34:37 UTC] PHP Stack trace:
+[07-Dec-2021 18:34:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:34:37 UTC] PHP   2. require_once() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:396
+[07-Dec-2021 18:34:37 UTC] PHP   3. WP_Screen->render_screen_meta() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\admin-header.php:265
+[07-Dec-2021 18:34:37 UTC] PHP   4. WP_Screen->render_screen_options() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:957
+[07-Dec-2021 18:34:37 UTC] PHP   5. WP_Screen->render_list_table_columns_preferences() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:1077
+[07-Dec-2021 18:34:37 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-screen.php:1151
+[07-Dec-2021 18:34:37 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:34:37 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:34:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:34:37 UTC] PHP Stack trace:
+[07-Dec-2021 18:34:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:34:37 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:34:37 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1280
+[07-Dec-2021 18:34:37 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1186
+[07-Dec-2021 18:34:37 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1129
+[07-Dec-2021 18:34:37 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:34:37 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:34:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:34:37 UTC] PHP Stack trace:
+[07-Dec-2021 18:34:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:34:37 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:34:37 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1280
+[07-Dec-2021 18:34:37 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1186
+[07-Dec-2021 18:34:37 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1159
+[07-Dec-2021 18:34:37 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:34:37 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:34:37 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:34:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1210
+[07-Dec-2021 18:34:37 UTC] PHP Stack trace:
+[07-Dec-2021 18:34:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:34:37 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:34:37 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1280
+[07-Dec-2021 18:34:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:34:37 UTC] PHP Stack trace:
+[07-Dec-2021 18:34:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:34:37 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:34:37 UTC] PHP   3. WP_Posts_List_Table->display_rows_or_placeholder() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1291
+[07-Dec-2021 18:34:37 UTC] PHP   4. WP_Posts_List_Table->display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1364
+[07-Dec-2021 18:34:37 UTC] PHP   5. WP_Posts_List_Table->_display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:772
+[07-Dec-2021 18:34:37 UTC] PHP   6. WP_Posts_List_Table->single_row() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:795
+[07-Dec-2021 18:34:37 UTC] PHP   7. WP_Posts_List_Table->single_row_columns() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1377
+[07-Dec-2021 18:34:37 UTC] PHP   8. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1415
+[07-Dec-2021 18:34:37 UTC] PHP   9. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:34:37 UTC] PHP  10. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:34:37 UTC] PHP  11. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:34:37 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:34:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1417
+[07-Dec-2021 18:34:37 UTC] PHP Stack trace:
+[07-Dec-2021 18:34:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:34:37 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:34:37 UTC] PHP   3. WP_Posts_List_Table->display_rows_or_placeholder() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1291
+[07-Dec-2021 18:34:37 UTC] PHP   4. WP_Posts_List_Table->display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1364
+[07-Dec-2021 18:34:37 UTC] PHP   5. WP_Posts_List_Table->_display_rows() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:772
+[07-Dec-2021 18:34:37 UTC] PHP   6. WP_Posts_List_Table->single_row() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:795
+[07-Dec-2021 18:34:37 UTC] PHP   7. WP_Posts_List_Table->single_row_columns() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1377
+[07-Dec-2021 18:34:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:34:37 UTC] PHP Stack trace:
+[07-Dec-2021 18:34:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:34:37 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:34:37 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1296
+[07-Dec-2021 18:34:37 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1186
+[07-Dec-2021 18:34:37 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:34:37 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:34:37 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:34:37 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:34:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1210
+[07-Dec-2021 18:34:37 UTC] PHP Stack trace:
+[07-Dec-2021 18:34:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:34:37 UTC] PHP   2. WP_Posts_List_Table->display() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:476
+[07-Dec-2021 18:34:37 UTC] PHP   3. WP_Posts_List_Table->print_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1296
+[07-Dec-2021 18:34:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:34:37 UTC] PHP Stack trace:
+[07-Dec-2021 18:34:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:34:37 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:34:37 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:34:37 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1173
+[07-Dec-2021 18:34:37 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:34:37 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:34:37 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:34:37 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:34:37 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:34:37 UTC] PHP Stack trace:
+[07-Dec-2021 18:34:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:34:37 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:34:37 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:34:37 UTC] PHP   4. array_keys() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:34:37 UTC] PHP Warning:  array_intersect(): Expected parameter 1 to be an array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:34:37 UTC] PHP Stack trace:
+[07-Dec-2021 18:34:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:34:37 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:34:37 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:34:37 UTC] PHP   4. array_intersect() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:34:37 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:34:37 UTC] PHP Stack trace:
+[07-Dec-2021 18:34:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:34:37 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:34:37 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:34:37 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:34:37 UTC] PHP Stack trace:
+[07-Dec-2021 18:34:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:34:37 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:34:37 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:34:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:34:37 UTC] PHP Stack trace:
+[07-Dec-2021 18:34:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:34:37 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:34:37 UTC] PHP   3. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1966
+[07-Dec-2021 18:34:37 UTC] PHP   4. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:34:37 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:34:37 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:34:37 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:34:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php on line 1968
+[07-Dec-2021 18:34:37 UTC] PHP Stack trace:
+[07-Dec-2021 18:34:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:34:37 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:34:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:34:37 UTC] PHP Stack trace:
+[07-Dec-2021 18:34:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:34:37 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:34:37 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:34:37 UTC] PHP   4. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1173
+[07-Dec-2021 18:34:37 UTC] PHP   5. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:34:37 UTC] PHP   6. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:34:37 UTC] PHP   7. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:34:37 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:34:37 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:34:37 UTC] PHP Stack trace:
+[07-Dec-2021 18:34:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:34:37 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:34:37 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:34:37 UTC] PHP   4. array_keys() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:34:37 UTC] PHP Warning:  array_intersect(): Expected parameter 1 to be an array, null given in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1174
+[07-Dec-2021 18:34:37 UTC] PHP Stack trace:
+[07-Dec-2021 18:34:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:34:37 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:34:37 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:34:37 UTC] PHP   4. array_intersect() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1174
+[07-Dec-2021 18:34:37 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:34:37 UTC] PHP Stack trace:
+[07-Dec-2021 18:34:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:34:37 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:34:37 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:34:37 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php on line 1175
+[07-Dec-2021 18:34:37 UTC] PHP Stack trace:
+[07-Dec-2021 18:34:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:34:37 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:34:37 UTC] PHP   3. WP_Posts_List_Table->get_column_count() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1604
+[07-Dec-2021 18:34:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Tipos_Columnas' does not have a method ' agregarColumnasDepartamentos' in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\class-wp-hook.php on line 303
+[07-Dec-2021 18:34:37 UTC] PHP Stack trace:
+[07-Dec-2021 18:34:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:34:37 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 18:34:37 UTC] PHP   3. WP_Posts_List_Table->get_column_info() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php:1966
+[07-Dec-2021 18:34:37 UTC] PHP   4. WP_Posts_List_Table->get_primary_column_name() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1121
+[07-Dec-2021 18:34:37 UTC] PHP   5. get_column_headers() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-list-table.php:1078
+[07-Dec-2021 18:34:37 UTC] PHP   6. apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\screen.php:37
+[07-Dec-2021 18:34:37 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\plugin.php:189
+[07-Dec-2021 18:34:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\includes\class-wp-posts-list-table.php on line 1968
+[07-Dec-2021 18:34:37 UTC] PHP Stack trace:
+[07-Dec-2021 18:34:37 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:0
+[07-Dec-2021 18:34:37 UTC] PHP   2. WP_Posts_List_Table->inline_edit() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit.php:482
+[07-Dec-2021 19:16:41 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\wp-db.php on line 1656
+[07-Dec-2021 19:16:41 UTC] PHP Stack trace:
+[07-Dec-2021 19:16:41 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[07-Dec-2021 19:16:41 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[07-Dec-2021 19:16:41 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[07-Dec-2021 19:16:41 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[07-Dec-2021 19:16:41 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[07-Dec-2021 19:16:41 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[07-Dec-2021 19:16:41 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1192
+[07-Dec-2021 19:16:41 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1271
+[07-Dec-2021 19:16:41 UTC] PHP   9. require_wp_db() C:\Users\jenif\Local Sites\condominio\app\public\wp-settings.php:124
+[07-Dec-2021 19:16:41 UTC] PHP  10. wpdb->__construct() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\load.php:558
+[07-Dec-2021 19:16:41 UTC] PHP  11. wpdb->db_connect() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\wp-db.php:632
+[07-Dec-2021 19:16:41 UTC] PHP  12. mysqli_real_connect() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\wp-db.php:1656
+[07-Dec-2021 19:16:42 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexiï¿½n ya que el equipo de destino denegï¿½ expresamente dicha conexiï¿½n.
+ in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\wp-db.php on line 1656
+[07-Dec-2021 19:16:42 UTC] PHP Stack trace:
+[07-Dec-2021 19:16:42 UTC] PHP   1. {main}() C:\Users\jenif\Local Sites\condominio\app\public\wp-login.php:0
+[07-Dec-2021 19:16:42 UTC] PHP   2. require() C:\Users\jenif\Local Sites\condominio\app\public\wp-login.php:12
+[07-Dec-2021 19:16:42 UTC] PHP   3. require_once() C:\Users\jenif\Local Sites\condominio\app\public\wp-load.php:50
+[07-Dec-2021 19:16:42 UTC] PHP   4. require_once() C:\Users\jenif\Local Sites\condominio\app\public\wp-config.php:77
+[07-Dec-2021 19:16:42 UTC] PHP   5. require_wp_db() C:\Users\jenif\Local Sites\condominio\app\public\wp-settings.php:124
+[07-Dec-2021 19:16:42 UTC] PHP   6. wpdb->__construct() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\load.php:558
+[07-Dec-2021 19:16:42 UTC] PHP   7. wpdb->db_connect() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\wp-db.php:632
+[07-Dec-2021 19:16:42 UTC] PHP   8. mysqli_real_connect() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\wp-db.php:1656
