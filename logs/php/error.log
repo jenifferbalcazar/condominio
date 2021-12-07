@@ -3007,3 +3007,39 @@ Stack trace:
 [06-Dec-2021 02:42:27 UTC] PHP   2. require() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\post-new.php:75
 [06-Dec-2021 02:42:27 UTC] PHP   3. require_once() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\edit-form-advanced.php:425
 [06-Dec-2021 02:42:27 UTC] PHP   4. header() C:\Users\jenif\Local Sites\condominio\app\public\wp-admin\admin-header.php:9
+[06-Dec-2021 21:59:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\wp-db.php on line 1656
+[06-Dec-2021 21:59:33 UTC] PHP Stack trace:
+[06-Dec-2021 21:59:33 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[06-Dec-2021 21:59:33 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[06-Dec-2021 21:59:33 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[06-Dec-2021 21:59:33 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[06-Dec-2021 21:59:33 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[06-Dec-2021 21:59:33 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[06-Dec-2021 21:59:33 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1192
+[06-Dec-2021 21:59:33 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1271
+[06-Dec-2021 21:59:33 UTC] PHP   9. require_wp_db() C:\Users\jenif\Local Sites\condominio\app\public\wp-settings.php:124
+[06-Dec-2021 21:59:33 UTC] PHP  10. wpdb->__construct() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\load.php:558
+[06-Dec-2021 21:59:33 UTC] PHP  11. wpdb->db_connect() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\wp-db.php:632
+[06-Dec-2021 21:59:33 UTC] PHP  12. mysqli_real_connect() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\wp-db.php:1656
+[06-Dec-2021 22:01:47 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+ in C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\wp-db.php on line 1656
+[06-Dec-2021 22:01:47 UTC] PHP Stack trace:
+[06-Dec-2021 22:01:47 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[06-Dec-2021 22:01:47 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[06-Dec-2021 22:01:47 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[06-Dec-2021 22:01:47 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[06-Dec-2021 22:01:47 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[06-Dec-2021 22:01:47 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[06-Dec-2021 22:01:47 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1192
+[06-Dec-2021 22:01:47 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1271
+[06-Dec-2021 22:01:47 UTC] PHP   9. require_wp_db() C:\Users\jenif\Local Sites\condominio\app\public\wp-settings.php:124
+[06-Dec-2021 22:01:47 UTC] PHP  10. wpdb->__construct() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\load.php:558
+[06-Dec-2021 22:01:47 UTC] PHP  11. wpdb->db_connect() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\wp-db.php:632
+[06-Dec-2021 22:01:47 UTC] PHP  12. mysqli_real_connect() C:\Users\jenif\Local Sites\condominio\app\public\wp-includes\wp-db.php:1656
+[07-Dec-2021 01:13:26 UTC] PHP Parse error:  syntax error, unexpected '$enlace_unico' (T_VARIABLE) in C:\Users\jenif\Local Sites\condominio\app\public\wp-content\plugins\entradas-personalizadas\funciones\tipos-entradas.php on line 278
+[07-Dec-2021 01:14:26 UTC] PHP Parse error:  syntax error, unexpected '$enlace_unico' (T_VARIABLE) in C:\Users\jenif\Local Sites\condominio\app\public\wp-content\plugins\entradas-personalizadas\funciones\tipos-entradas.php on line 278
+[07-Dec-2021 01:16:10 UTC] PHP Parse error:  syntax error, unexpected '$enlace_unico' (T_VARIABLE) in C:\Users\jenif\Local Sites\condominio\app\public\wp-content\plugins\entradas-personalizadas\funciones\tipos-entradas.php on line 278
+[07-Dec-2021 01:16:16 UTC] PHP Parse error:  syntax error, unexpected '$enlace_unico' (T_VARIABLE) in C:\Users\jenif\Local Sites\condominio\app\public\wp-content\plugins\entradas-personalizadas\funciones\tipos-entradas.php on line 278
+[07-Dec-2021 01:16:50 UTC] PHP Parse error:  syntax error, unexpected '$enlace_unico' (T_VARIABLE) in C:\Users\jenif\Local Sites\condominio\app\public\wp-content\plugins\entradas-personalizadas\funciones\tipos-entradas.php on line 278
+[07-Dec-2021 01:16:51 UTC] PHP Parse error:  syntax error, unexpected '$enlace_unico' (T_VARIABLE) in C:\Users\jenif\Local Sites\condominio\app\public\wp-content\plugins\entradas-personalizadas\funciones\tipos-entradas.php on line 278

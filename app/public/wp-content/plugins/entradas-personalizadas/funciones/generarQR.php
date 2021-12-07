@@ -4,9 +4,9 @@ class GenerarQR{
 
     private const URL_API_Generador = 'https://chart.googleapis.com/chart?cht=qr&chs=177x177&';
   
-    function __construct($data)
+    function __construct($datos)
     {
-        $url = self::URL_API_Generador . 'chl=' . $data;
+        $url = self::URL_API_Generador . 'chl=' . $datos;
         //https://chart.googleapis.com/chart?cht=qr&chs=177x177&chl=condominio.local/wp-admin/validar-qr.php/?datos={id_generarqr:95,cantidad:5}
 
         //Hace una solicitu  HTTP a una URL especifica y devuelve la respuesta

@@ -10,10 +10,12 @@ class Tipos_Entradas
         $this->agregarCopropietarios();
         // Añadir Generar_QR
 		$this->GenerarQr();
-        // Añadir Validar_QR
-		$this->ValidarQr();
 		//Guardar qr
 		add_action('save_post_generarqr', [$this, 'guardarQR'], 10, 3);
+		//
+		add_action('admin_menu',[$this, 'agregar_pagina_qr']);
+		$this->redireccionar_si_viene_con_qr();
+		
     }
 
    //Registrando la función para añadir departamentos
@@ -191,70 +193,6 @@ class Tipos_Entradas
 
     }
 
-   // public function agregarValidadQr()
-   // Register Custom Post Type
-function ValidarQr() {
-
-	$etiquetas_validarqr = array(
-		'name'                  => 'validarqr',
-		'singular_name'         => 'Validar QR',
-		'menu_name'             => 'Validar QR',
-		'name_admin_bar'        => 'Validar QR',
-		'archives'              => 'Archivo de Validar QR',
-		'attributes'            => 'Atributos de Validar QR',
-		'parent_item_colon'     => 'Padre de Validar QR',
-		'all_items'             => 'Todos los QR',
-		'add_new_item'          => 'Añadir nuevo QR',
-		'add_new'               => 'Validar QR',
-		'new_item'              => 'Generar QR',
-		'edit_item'             => 'Editar QR',
-		'update_item'           => 'Actualizar QR',
-		'view_item'             => '',
-		'view_items'            => '',
-		'search_items'          => 'Buscar QR',
-		'not_found'             => 'QR no encontrado',
-		'not_found_in_trash'    => 'QR no encontrado en la papelera',
-		'featured_image'        => '',
-		'set_featured_image'    => '',
-		'remove_featured_image' => '',
-		'use_featured_image'    => '',
-		'insert_into_item'      => 'Insertar en el QR',
-		'uploaded_to_this_item' => 'Subido a este QR',
-		'items_list'            => 'Lista de Items',
-		'items_list_navigation' => 'Lista de navegación',
-		'filter_items_list'     => 'Filtro de la lista',
-	);
-	$capacidades_validarqr = array(
-		'edit_post'             => 'editar_validarqr',
-		'read_post'             => 'leer_validarqr',
-		'delete_post'           => 'eliminar_validarqr',
-		'edit_posts'            => 'editar_validarqr',
-		'edit_others_posts'     => 'editar_otros_validarqr',
-		'publish_posts'         => 'publicar_validarqr',
-		'read_private_posts'    => 'leer_validarqr_privados',
-	);
-	$argumentos_validarqr = array(
-		'label'                 => 'Validar QR',
-		'description'           => 'Descripción de Validar QR',
-		'labels'                => $etiquetas_validarqr,
-		'supports'              => array('editor', 'custom-fields' ),
-		'hierarchical'          => false,
-		'public'                => true,
-		'show_ui'               => true,
-		'show_in_menu'          => true,
-		'menu_position'         => 5,
-		'menu_icon'             => 'dashicons-saved',
-		'show_in_admin_bar'     => true,
-		'show_in_nav_menus'     => true,
-		'can_export'            => true,
-		'has_archive'           => true,
-		'exclude_from_search'   => false,
-		'publicly_queryable'    => true,
-		'capabilities'          => $capacidades_validarqr,
-	);
-	register_post_type( 'validarqr', $argumentos_validarqr );
-    }
-
 	/**
      * Maneja el guardado de las visitas, a partir de este se genera el código QR
      * @param int $id_post_generarqr Id del post del post type generar qr
@@ -271,23 +209,81 @@ function ValidarQr() {
 
         if (!empty($_POST['acf'])) {
             //Hcacer la url a la que los guardias vayan al momennto de validar el qr
-            $enlace_unico = array(
-                'id_generarqr'  => $id_post_generarqr,
-                'cantidad' 		=> $_POST['acf']['field_61ad52a799149']
-            );
+			//La llave unica será para que cuando el guardia lea un qr, este se compare con este enlace único que estamos generando del qr que ya se generó.
+            $llave_unica = md5($id_post_generarqr . $_POST['post_type']);
 
-			//condominio.local/wp-admin/validar-qr.php/?datos={id_generarqr:95,cantidad:5}
-            $enlace_unico = get_admin_url() . 'validar-qr.php/?datos=' . json_encode($enlace_unico);
+			//condominio.local/?datos-del-qr-a-analizar=95-gkmtgmotrmhptrmh450
+            $enlace_unico = home_url() . '?datos-del-qr-a-analizar='. $id_post_generarqr .'-' . $llave_unica;
 
             //genera el qr con los datos del enlace único de este post y el id del qr en la base de datos.
             $qr_id = new GenerarQR($enlace_unico);
 
             //Guardar el qr en los metadatos del post. Estos no se encuentran vinculados, con el addpostmeta se vinculan con el post.
-            add_post_meta($id_post_generarqr, 'id_imagen_qr', $qr_id);
+            update_post_meta($id_post_generarqr, 'llave_del_qr', $llave_unica);
 
             //Mostrar el qr
            // $id_del_qr = get_post_meta($id_visita, 'id_imagen_qr', true); // [id = 1] - 1
             //get_media_item($id_del_qr);
         }
     }
+
+	public function agregar_pagina_qr(){
+
+		/**
+		* @param string   $page_title Título de la página en el navegador
+		* @param string   $menu_title Título en el menú de wordpress
+		* @param string   $capability Capacidades
+		* @param string   $menu_slug  Slug del Menú
+		* @param callable $function   La función a la que llamará
+		* @param string   $icon_url   Icóno en el menú de WP, se pueden encontrar en https://developer.wordpress.org/resource/dashicons/#dashicons-code-standards
+		* @param int      $position   La posición en el menú donde tiene que aparecer. https://codex.wordpress.org/Administration_Menus#Top-Level_Menus
+		* @return string  Retornará un string.
+		 */
+
+		//Añadirá en el menú de wordpress el apartado de validar para que cuando este sea consultado llame a la función contenido_pagina_qr
+		add_menu_page('Validación de QR', 'Validar QR', 'manage_options', 'validar-qr', [$this, 'contenido_pagina_qr'], 'dashicons-code-standards', 9);
+	}
+
+    //Función para verificar que los QR, tanto el leído como el que se encuentra creado sean iguales.
+	public function contenido_pagina_qr(){
+		//si esta vacia la variable get en su atributo datosQR mostrará un mensaje.
+		if(empty($_GET['datosQR'])){
+			echo 'Hey, tienes que analizar un qr para poder ingresar a esta seción';
+		}
+        else{
+			//Si contiene obtendrá los datos y los separará generando dos variables en sus distintas posicions para obteneer el id del qr y el qr hasheado
+			$codigo_qr_info = explode('-',$_GET['datosQR']);
+			$id_post_del_qr = $codigo_qr_info['0'];
+			$qr_hasheado   = $codigo_qr_info['1'];
+
+			//Obtendrá los datos del qr a partir del id, si es que esta guardado con el key.
+			$qr_hash = get_post_meta($id_post_del_qr, 'llave_del_qr', true);
+
+			//entonces compara el qr leído con el qr existente.
+			if($qr_hasheado === $qr_hash){
+				echo 'SI DA EL QR';
+				$cantidad = get_field('cantidad', $id_post_del_qr);
+				//Añadir el if para el contador aqui
+				update_field('cantidad', $cantidad-1, $id_post_del_qr);
+			}
+			else{
+				echo 'NO FUNCA';
+			}
+		}	
+	}
+
+	//Función para redireccionar al usuario si es que no llega con la url necesaria para validar el qr.
+	public function redireccionar_si_viene_con_qr(){
+
+		//si en la url en el get no contiene los datos del QR a analizar no hará nada.
+		if(empty($_GET['datos-del-qr-a-analizar'])){
+			return;
+		}
+		//si contiene los datos, entonces guardará los datos y redireccionará a la url que creamos incluyendo la página validar-qr y los datos validados.
+		else{
+			$datos_a_validar = $_GET['datos-del-qr-a-analizar'];
+			wp_redirect( get_admin_url() . 'admin.php?page=validar-qr&datosQR=' . $datos_a_validar );
+		}
+	}
+
 }
